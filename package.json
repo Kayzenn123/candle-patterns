@@ -1,0 +1,19 @@
+{
+  "bin": {
+    "candle-patterns": "bin/candle-patterns.js"
+  },
+  "description": "Detect candlestick patterns (doji, engulfing, hammer) in OHLC CSV data",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "license": "MIT",
+  "name": "candle-patterns",
+  "scripts": {
+    "test": "node --test"
+  },
+  "version": "1.0.0"
+}
